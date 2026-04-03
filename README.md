@@ -24,7 +24,7 @@ To resolve this issue:
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
-	- Node.js (versión 16 o superior)
+    - Node.js (version 16 or higher)
 	- npm
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 3. Install dependencies
@@ -42,6 +42,15 @@ To resolve this issue:
     ```bash
     npm run test
     ```
+
+## Available routes
+
+| Route | Component | Description |
+|------|-----------|-------------|
+| `/` | `Home` | Main page |
+| `/nosotros` | `Nosotros` | About us information |
+| `/contacto` | `Contacto` | Contact form |
+| `/destinos` | `Destinos` | Tourist destinations list |
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
