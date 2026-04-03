@@ -7,10 +7,14 @@ const Contacto = () => {
     const [errors, setErrors] = useState({});
 
     const validateName = () => {
-        if (name.trim() === '') {
-            return 'El nombre es obligatorio';
+        try {
+            if (name.trim() === '') {
+                throw new Error('El nombre es obligatorio');
+            }
+            return '';
+        } catch (error) {
+            return error.message;
         }
-        return '';
     };
 
     const validateEmail = () => {

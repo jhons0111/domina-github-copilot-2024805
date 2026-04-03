@@ -2,47 +2,28 @@ import React from 'react';
 
 function Nosotros() {
   return (
-    <>
-      <div style={{ padding: '20px' }}>
-        <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '20px' }}>Nosotros</h1>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-          {/* Fundadora */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
-            <div
-              style={{
-                width: '50px',
-                height: '50px',
-                borderRadius: '50%',
-                backgroundColor: 'blue',
-              }}
-            ></div>
-            <div>
-              <h2 style={{ fontSize: '18px', fontWeight: 'bold', margin: '0' }}>Fundadora</h2>
-              <p style={{ margin: '0', color: '#555' }}>
-                Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor
-              </p>
-            </div>
-          </div>
-          {/* Mentor */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
-            <div
-              style={{
-                width: '50px',
-                height: '50px',
-                borderRadius: '50%',
-                backgroundColor: 'blue',
-              }}
-            ></div>
-            <div>
-              <h2 style={{ fontSize: '18px', fontWeight: 'bold', margin: '0' }}>Mentor</h2>
-              <p style={{ margin: '0', color: '#555' }}>
-                Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor
-              </p>
-            </div>
-          </div>
-        </div>
+    <div className="nosotros-page">
+      <div className="nosotros-header">
+        <h1>Nosotros</h1>
       </div>
-    </>
+      <div className="nosotros-list">
+        <article className="nosotros-card">
+          <div className="avatar" aria-hidden="true"></div>
+          <div className="nosotros-content">
+            <h2>Fundadora</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at tellus vitae ligula ultrices pulvinar.</p>
+          </div>
+        </article>
+
+        <article className="nosotros-card">
+          <div className="avatar" aria-hidden="true"></div>
+          <div className="nosotros-content">
+            <h2>Mentor</h2>
+            <p>Nullam nec felis sed nisl fermentum bibendum. Fusce ullamcorper sem vel libero congue facilisis.</p>
+          </div>
+        </article>
+      </div>
+    </div>
   );
 }
 

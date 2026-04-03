@@ -1,9 +1,56 @@
-.invalid-feedback{
-    display: block;
+.invalid-feedback {
+  display: block;
 }
+
 .destacado .card {
-   
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* For Safari and older versions of Chrome */
-    -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* For older versions of Firefox */
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  /* For Safari and older versions of Chrome */
+  -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  /* For older versions of Firefox */
+}
+
+.nosotros-page {
+  padding: 1.25rem;
+  background-color: #ffffff;
+}
+
+.nosotros-header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.nosotros-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.nosotros-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: magenta;
+}
+
+.nosotros-content h2 {
+  font-size: 1.2rem;
+  margin: 0 0 0.25rem;
+}
+
+.nosotros-content p {
+  margin: 0;
+  color: #444;
 }
